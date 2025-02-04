@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+
+}
+
+body{
+    width: 100%;
+    max-width: 1256px;
+    margin: auto;
+    background-color: rgb(189, 255, 189);
+}
+
+.web{
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.title{
+    margin: 30px 0;
+}
+
+#guess{
+    border: solid 2px lightgreen;
+    margin: 30px 0;
+}
+
+#btn{
+    padding: 12px 16px;
+    font-size: 20px;
+    margin-bottom: 20px;
+    border: none;
+    border-radius: 50px;
+    background-color: lightgreen;
+    transition: ease 0.3s;
+} #btn:hover{
+    background-color: rgb(107, 216, 107);
+}
+
+#restart{
+    display: none;
+    padding: 12px 16px;
+    font-size: 20px;
+    margin: 20px 0;
+    border: none;
+    border-radius: 50px;
+    background-color: lightgreen;
+    transition: ease 0.3s;
+
+}
+
+.lives{
+    display: flex;
+    justify-content: space-between;
+    width: 20%;
+}
+
+.heart1, .heart2, .heart3{
+    display: block
+}
